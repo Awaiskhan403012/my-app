@@ -1,0 +1,1375 @@
+/* Reset default styling */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font family and basic text styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Basic link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navItem{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Container for general page layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+/* Grid system */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px; /* gutter */
+}
+.mar{
+  margin: 10px;
+}
+
+.col {
+  flex: 1 0 25%; /* 4 columns by default */
+  padding: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  .col {
+    flex: 1 0 50%; /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .col {
+    flex: 1 0 100%; /* 1 column on very small screens */
+  }
+}
+
+/* Basic typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Button styles */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.btnDark{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btnDark:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Form elements */
+input,
+textarea,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20%;
+}
+
+input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+
+/*navbar  /  header*/
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.logoBox{
+    background-color: #ccc;
+    width: 40px;
+    height: 40px;
+}
+
+.logoText{
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    margin: 10px;
+}
+
+.logoText:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+
+.navLinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navItem {
+  padding-left: 0;
+  list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 10px;
+    transition: 1s;
+}
+
+.navItem:hover {
+    text-align: center;
+    list-style-type: square;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+/*Cards*/
+
+.card{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  height: auto;
+  margin: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-img-top{
+  width: 100%;
+}
+
+.card-body{
+  padding: 2px 16px;
+}
+
+
+
+/*Price Cards*/
+
+.pricecard{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  height: 450px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.card-img-price{
+  width: 20%;
+  height: 70px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.Pricecard-title{
+  text-align: center;
+  margin: 10px;
+}
+
+.Pricecard-subtitle{
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.card-future{
+  text-align: center;
+  margin: 10px;
+}
+
+/*Simple CArd*/
+.card-img-top{
+  height: 300px;
+}
+.Simplecard{
+  background-color: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 22%;
+  height: auto;
+  margin: 20px;
+  color: white;
+  transition: 0.4s;
+}
+
+.Simplecard:hover{
+  background-color: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 247, 255, 0.2);
+  width: 25%;
+  height: 400px;
+  margin: 20px;
+  color: white;
+}
+
+/*PostCard*/
+
+.Postcard{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  height: auto;
+  margin: 20px;
+}
+
+.Postcard:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(25, 168, 235, 0.2);
+  width: 30%;
+  height: 450px;
+  margin: 20px;
+}
+
+
+.Post-card-img{
+  width: 90%;
+  height: 330px;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.Postcard-text{
+  text-align: center;
+}
+
+
+
+/*Landing img / video*/
+
+.landing-container{
+  width: 100%;
+  height: 92.5vh;
+  background-color: rgb(199, 199, 199);
+  max-width: 1200px;
+}
+
+
+/*Wellcome texts*/
+
+.wellcome-container{
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.wellcome-title{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.wellcome-subtitle{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.wellcome-container:hover .wellcome-text{
+  padding: 30px;
+}
+
+.wellcome-text{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  transition: 0.5s;
+}
+
+/*EVents Conatiner*/
+
+.events-container{
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(83, 83, 83);
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.flex-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.flex-left{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.events-title{
+  color: white;
+  padding: 20px;
+}
+.black{
+  background-color: black;
+  color: white;
+}
+
+.blackmusic{
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+.brown{
+  background-color: rgb(112, 112, 112);
+  color: white;
+}
+
+.Ecard{
+  background-color: black;
+  color: white;
+  width: 25%;
+  height:400px;
+  transition: 0.5s;
+}
+
+.Ecard:hover{
+  width: 30%;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(7, 218, 255, 0.2);
+}
+.Ecardbrown:hover{
+  width: 30%;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(7, 218, 255, 0.2);
+}
+.Ecardbrown{
+  background-color: rgb(121, 121, 121);
+  color: white;
+  width: 25%;
+  transition: 0.5s;
+  height:400px;
+
+}
+
+.firstwhitebox{
+  width: 100%;
+  height: 190px;
+  background-color: white;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.firstwhitebox:hover{
+  width: 120%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(7, 218, 255, 0.2);
+}
+
+
+.secondwhitebox{
+  width: 100%;
+  height: 190px;
+  background-color: white;
+  margin-top: 20PX;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.secondwhitebox:hover{
+  width: 120%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(7, 218, 255, 0.2);
+}
+
+
+.categoryBoxes{
+  width: 25%;
+  height: 400px;
+  margin: 10px;
+}
+
+.df{
+  color:black;
+}
+
+/*Bloging Card*/
+
+.BlogingCard{
+  width: 31%;
+  height: 450px;
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.BlogingCard:hover{
+  margin: 10px;
+}
+
+.bl-img{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #9c4949;
+}
+
+.bl-body{
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.fleft{
+  float: left;
+}
+
+.fright{
+  float: right;
+}
+
+.mleft{
+  margin-left: 100px;
+}
+
+.card-a{
+  padding: 10px;
+
+}
+
+.card-date{
+  padding: 10px;
+  margin:5px;
+  float: left;
+}
+
+.card-cat{
+  padding: 10px;
+  margin:5px;
+  float: right;
+
+}
+
+/* features */
+
+.feature-cont{
+  width: 100%;
+  height: 70vh;
+  background-color: #0056b3;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.feature-left-img{
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.feature-left-img:hover .img-center{
+  width: 60%;
+  height: 400px;
+  background-color: rgb(175, 87, 87);
+  border-radius: 20px;
+}
+.img-center{
+  background-color: white;
+  width: 45%;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.feature-right-content{
+  width: 50%;
+  background-color: rgb(241, 241, 241);
+  height: 100%;
+  padding: 130px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.feature-right-content:hover{
+ 
+
+  padding: 140px;
+
+}
+
+.Social-container{
+  width: 100%;
+  height: 90vh;
+  background-color: #383838;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  
+}
+
+.Newslater-cont{
+  width: 100%;
+  height: 200px;
+  background-color: gainsboro;
+}
+.Ntitle{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.contents{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 170px;
+}
+.footer1{
+  width: 100%;
+  height: 200px;
+  background-color: #e4e4e4;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  
+  margin-top: 30px;
+
+}
+
+.F-item{
+  color: black;
+  overflow: hidden;
+}
+
+.F-item:hover{
+  color: rgb(0, 147, 206);
+  cursor: pointer;
+}
+
+.F-MainBox{
+  width: 30%;
+  height: 100%;
+  margin: 20px;
+}
+.F-production{
+  width: 20%;
+  height: 100%;
+}
+.F-about{
+  width: 20%;
+  height: 100%;
+}
+.F-activities{
+  width: 20%;
+  height: 100%;
+}
+.F-venues{
+  width: 10%;
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 830px) {
+
+
+  .container{
+    flex-wrap: wrap;
+  }
+
+  .navItem{
+    display: none;
+  }
+  .landing-container{
+    height: 70vh;
+  }
+  .Ecard{
+    color: white;
+    width: 90%;
+    height:300px;
+  }
+
+  .Ecard:hover{
+    color: white;
+    width: 92%;
+    height:350px;
+  }
+
+
+
+  .events-container{
+    width: 100%;
+    height: 70vh;
+  }
+
+  
+  .events-title{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  
+  .blackmusic{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .Ecardbrown{
+    width: 25%;
+    height:300px;
+    display: none;
+  }
+  
+  .firstwhitebox{
+    width: 100%;
+    height: 140px;
+    padding: 1px;
+    color: black;
+    display: none;
+  }
+
+  
+  
+  .secondwhitebox{
+    width: 100%;
+    height: 140px;
+    margin-top: 20PX;
+    padding: 1px;
+    color: black;
+    display: none;
+  }
+  
+  
+  
+  .categoryBoxes{
+    width: 25%;
+    height: 300px;
+    display: none;
+  }
+
+
+
+  .feature-cont{
+    width: 100%;
+    height: 50vh;
+    background-color: #0056b3;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .feature-left-img{
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    transition: 0.5s;
+  }
+  
+  .feature-left-img:hover .img-center{
+    width: 60%;
+    height: 200px;
+    background-color: rgb(175, 87, 87);
+    border-radius: 20px;
+  }
+  .img-center{
+    background-color: white;
+    width: 70%;
+    height: 200px;
+    transition: 0.5s;
+  }
+  
+  .feature-right-content{
+    width: 50%;
+    background-color: rgb(241, 241, 241);
+    height: 100%;
+    padding: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  .feature-right-content:hover{
+   
+  
+    padding: 13px;
+  
+  }
+  
+  .Social-container{
+    width: 100%;
+    height: 60vh;
+    background-color: #383838;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+  }
+  
+  .Newslater-cont{
+    width: 100%;
+    height: 200px;
+    background-color: gainsboro;
+  }
+  .Ntitle{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+  .contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+  }
+  .footer1{
+    width: 100%;
+    height: 200px;
+    background-color: #e7e4e4;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+    margin-top: 30px;
+  
+  }
+  
+  .F-item{
+    color: black;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  
+  .F-item:hover{
+    color: rgb(0, 147, 206);
+    cursor: pointer;
+  }
+  
+  .F-MainBox{
+    width: 19%;
+    height: 100%;
+    margin: 5px;
+    
+  }
+  .F-production{
+    width: 20%;
+    height: 100%;
+  }
+  .F-about{
+    width: 21%;
+    height: 100%;
+  }
+  .F-activities{
+    width: 20%;
+    height: 100%;
+  }
+  .F-venues{
+    width: 10%;
+    height: 100%;
+  }
+  ul h3{
+    font-size: 15px;
+  }
+
+  .card-img-top{
+    height: 180px;
+  }
+  .Simplecard{
+    background-color: none;
+    transition: 0.3s;
+    width: 40%;
+    height: auto;
+    color: white;
+    transition: 0.4s;
+  }
+  
+  .Simplecard:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 247, 255, 0.2);
+    width: 25%;
+    height: 180px;
+    margin: 20px;
+    color: white;
+  }
+
+  .wellcome-title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .wellcome-subtitle{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 440px) {
+
+
+  .container{
+    flex-wrap: wrap;
+  }
+
+  .navItem{
+    display: none;
+  }
+  .landing-container{
+    height: 70vh;
+  }
+  .Ecard{
+    color: white;
+    width: 90%;
+    height:300px;
+  }
+
+  .Ecard:hover{
+    color: white;
+    width: 92%;
+    height:350px;
+  }
+
+
+
+  .events-container{
+    width: 100%;
+    height: 70vh;
+  }
+
+  
+  .events-title{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+  
+  .blackmusic{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .Ecardbrown{
+    width: 25%;
+    height:300px;
+    display: none;
+  }
+  
+  .firstwhitebox{
+    width: 100%;
+    height: 140px;
+    padding: 1px;
+    color: black;
+    display: none;
+  }
+
+  
+  
+  .secondwhitebox{
+    width: 100%;
+    height: 140px;
+    margin-top: 20PX;
+    padding: 1px;
+    color: black;
+    display: none;
+  }
+  
+  
+  
+  .categoryBoxes{
+    width: 25%;
+    height: 300px;
+    display: none;
+  }
+
+
+
+  .feature-cont{
+    width: 100%;
+    height: 50vh;
+    background-color: #0056b3;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .feature-left-img{
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    transition: 0.5s;
+  }
+  
+  .feature-left-img:hover .img-center{
+    width: 60%;
+    height: 200px;
+    background-color: rgb(175, 87, 87);
+    border-radius: 20px;
+  }
+  .img-center{
+    background-color: white;
+    width: 65%;
+    height: 150px;
+    transition: 0.5s;
+  }
+  
+  .feature-right-content{
+    width: 50%;
+    background-color: rgb(241, 241, 241);
+    height: 100%;
+    padding: auto;
+    overflow: hidden;
+    font-size: 10px;
+    transition: 0.5s;
+  }
+  
+  .feature-right-content:hover{
+   
+  
+    padding: 13px;
+  
+  }
+  
+  .Social-container{
+    width: 100%;
+    height: 40vh;
+    background-color: #383838;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+  }
+  
+  .Newslater-cont{
+    width: 100%;
+    height: 200px;
+    background-color: gainsboro;
+    padding: auto;
+  }
+  .Ntitle{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+  .contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+  }
+  .footer1{
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+    margin-top: 30px;
+    
+  }
+  
+  .F-item{
+    color: black;
+    overflow: hidden;
+    font-size: 12px;
+    font-size: 10px;
+  }
+  
+  .F-item:hover{
+    color: rgb(0, 147, 206);
+    cursor: pointer;
+  }
+  
+  .F-MainBox{
+    width: 19%;
+    height: 100%;
+    margin: 5px;
+    
+  }
+  .F-production{
+    width: 21%;
+    height: 100%;
+  }
+  .F-about{
+    width: 21%;
+    height: 100%;
+  }
+  .F-activities{
+    width: 20%;
+    height: 100%;
+  }
+  .F-venues{
+    width: 10%;
+    height: 100%;
+  }
+  ul h3{
+    font-size: 13px;
+  }
+
+  .card-img-top{
+    height: 100px;
+  }
+  .Simplecard{
+    background-color: none;
+    transition: 0.3s;
+    width: 23%;
+    height: auto;
+    color: white;
+    transition: 0.4s;
+    font-size: 7px;
+  }
+  
+  .Simplecard:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 247, 255, 0.2);
+    width: 25%;
+    height: 180px;
+    margin: 20px;
+    color: white;
+  }
+
+  .wellcome-title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .wellcome-subtitle{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+
+  .BlogingCard{
+    width: 100%;
+    height: 450px;
+    margin: 10px;
+    transition: 0.2s;
+  }
+  
+  .BlogingCard:hover{
+    margin: 10px;
+  }
+  
+  .bl-img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #9c4949;
+  }
+  
+  .bl-body{
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .Card-cont{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+  
+
+  .AcadmicHero{
+    width: 100%;
+    height: 79vh;
+   
+    flex-direction: column;
+  }
+}
+
+.Card-cont{
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.5s;
+  flex-wrap: wrap;
+}
+
+
+.AcadmicHero{
+  width: 100%;
+  height: 79vh;
+  background-color: rgb(201, 201, 201);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.AboutHero{
+  width: 100%;
+  height: 79vh;
+  background-color: rgb(201, 201, 201);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.aboutimg1{
+  background-color: #eceaea;
+  position: absolute;
+  width: 45%;
+  height: 60%;
+  margin-left: 30px;
+  margin-bottom: 38px;
+  overflow: hidden;
+}
+
+
+.aboutimg2{
+  background-color: #9c4949;
+  position: relative;
+  overflow: hidden;
+}
+
+.AboutHero2{
+  width: 100%;
+  height: 79vh;
+  background-color: rgb(146, 146, 146);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.AboutHero3{
+  width: 100%;
+  height: 79vh;
+  background-color: rgb(201, 201, 201);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.hero-right{
+  width:47%;
+  height: 55vh;
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.H-title{
+  font-size: 57px;
+}
+
+.H-des{
+  font-size: 10px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+max-width: 290px;
+}
+
