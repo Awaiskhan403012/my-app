@@ -454,6 +454,14 @@ input[type="submit"]:hover {
   
 }
 
+
+.flex-betw{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
 .events-title{
   color: white;
   padding: 20px;
@@ -1373,3 +1381,176 @@ justify-content: space-evenly;
 max-width: 290px;
 }
 
+
+
+
+/*Events list page*/
+
+.Events-cont{
+  background-color: #ccc;
+  width: 100%;
+  height: 90vh;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  flex-wrap: wrap;
+  padding: 50px;
+
+}
+
+
+.Events-list-cont{
+  background-color: #2b2b2b;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.5s;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+
+.Event-list-comp{
+  background-color: #ffeeee;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+  flex-wrap: wrap;
+  width: 90%;
+  max-height: 900px;
+  height: auto;
+  padding: 20px;
+}
+
+
+.Event-list-header{
+
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+.Event-list-price{
+  border-radius:50%;
+  height: 50px;
+  width: 50px;
+  background-color: #d4d4d4;
+  text-align: center;
+}
+
+
+.Event-list-pos{
+  border-radius:50%;
+  height: 50px;
+  width: 50px;
+  background-color: #d4d4d4;
+  text-align: center;
+}
+
+
+.Event-list-des{
+
+  width: auto;
+  height: auto;
+  max-width: 1200px;
+}
+
+
+.Event-list-img{
+  background-color: #afb6bd;
+  width: 90%;
+  height:300px;
+  max-width: 1200px;
+}
+
+
+.Event-list-footer{
+  width: 90%;
+  height: auto;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+
+.Event-list-name{
+  background-color: #d4d4d4;
+  width: auto;
+  height: auto;
+  max-width: 90%;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.des{
+  background-color: #d4d4d4;
+  border-radius: 5px;
+}
+
+
+
+
+.Event-info{
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 300px;
+  background-color: white;
+  padding: 10px;
+  
+}
+
+.when-and-where{
+  color: #ccc;
+}
+.shape{
+  width: 30px;
+  height: 50px;
+  background-color: #d4d4d4;
+}
+ 
+
+
+.and-where{
+  color: #4495ff;
+}
+
+.on-or-of{
+  color: rgb(255, 0, 0);
+}
+ 
+.left{
+  width: 50%;
+  height: 70vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.right{
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.Event-time-date{
+  width: 40%;
+  height: auto;
+  max-width: 90%;
+  max-height: 70px;
+
+
+  
+}
