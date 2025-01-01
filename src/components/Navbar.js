@@ -13,6 +13,10 @@ function Navbar() {
       <li className="navItem">
             <Link to="/Events">Events</Link> 
           </li>
+
+          <li className="navItem">
+            <Link to="/Event">Event</Link> 
+          </li>
           
           <li className="navItem">
             <Link to="/">Home</Link> 

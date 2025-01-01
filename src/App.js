@@ -9,6 +9,7 @@ import GoverningBody from './pages/GoverningBody';
 import Ourteam from './pages/Ourteam';
 import Venues from './pages/venues';
 import Events from './pages/Events';
+import Event from './pages/Event_only';
 import './assets/Main.css';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Events" element={<Events />} />
+        <Route path="/Event" element={<Event />} />
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/blog" element={<Blog />} /> 
