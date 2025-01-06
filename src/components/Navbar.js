@@ -14,7 +14,12 @@ function Navbar() {
             <Link to="/Events">Events</Link> 
           </li>
 
-          <li className="navItem">
+
+
+          <div class="dropdown">
+  <button class="btnDark">Dropdown</button>
+  <div class="dropdown-content">
+  <li className="navItem">
             <Link to="/Event">Event</Link> 
           </li>
           
@@ -39,8 +44,12 @@ function Navbar() {
           <li className="navItem">
             <Link to="/venues">Venues</Link>
           </li>
-     
+  </div>
+</div>
+
       </div>
+
+      
       
       <button className="btn">Sign in</button>
     </nav>

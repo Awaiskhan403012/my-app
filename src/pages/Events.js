@@ -41,9 +41,9 @@ function Events(){
             </div>
 
          </div>
-         <div className='Events-list-cont'>
+         <div className='Events-list-cont flex-column'>
             
-         <h1>Events</h1>
+        
             <EventList />
             
          </div>
