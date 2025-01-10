@@ -32,7 +32,7 @@ function BlogingCard(props) {
 
 function AdmCard(props) {
     return (
-        <div className="BlogingCard flex-center flex-column">
+        <div className="BlogingCard  flex-column">
             <img className="bl-img" src={props.img} alt="Card cap" />
             <div className="bl-body">
                 <h4 className="card-text">{props.title}</h4> 

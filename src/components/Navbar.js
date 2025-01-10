@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/Main.css';
-
+import logo from '../assets/images/logo.png';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logoBox"></div>
+      <div className="logoBox">
+        <img src={logo} alt='' width='100%' height='100%' />
+      </div>
       <h5 className="logoText">ARTS COUNCIL <br /> KARACHI</h5>
 
       <div className="navLinks">

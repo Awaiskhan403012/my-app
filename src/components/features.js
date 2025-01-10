@@ -5,7 +5,7 @@ function Admission(props) {
     return (
         <div className='feature-cont'>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} alt='' /></div>
+                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
             </div>
             <div className='feature-right-content flex-column'>
                 <h4 className="card-text">Admission</h4>
@@ -30,7 +30,7 @@ function PresidentM(props) {
                 <button className='btn'>See more</button>
             </div>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} alt='' /></div>
+                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
             </div>
         </div>
     );
@@ -41,7 +41,7 @@ function Production(props) {
     return (
         <div className='feature-cont'>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} alt='' /></div>
+                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
             </div>
             <div className='feature-right-content flex-column'>
                 <h4 className="card-text">Production</h4>
@@ -66,7 +66,7 @@ function Acadmics(props) {
                 <button className='btn'>See more</button>
             </div>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} alt='' /></div>
+                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
             </div>
         </div>
     );

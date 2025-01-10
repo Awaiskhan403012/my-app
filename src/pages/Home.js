@@ -8,7 +8,7 @@ import Feature from '../components/features';
 import SocialMedia from '../components/Social-media';
 import Newslater from '../components/Newslater';
 import Footer from '../components/Footer';
-import img from './moon.jpg';
+
 
 
 
@@ -27,11 +27,13 @@ function Home(){
     
     <Events />
     
-          <Feature.Admission img='hello' />
-          <Feature.PresidentM  img='hello' />
-          <Feature.Production img='hello'  />
-          <Feature.Acadmics img='hello'  />
-          <SocialMedia img={img} />
+          
+          
+          <Feature.Admission img='https://acpkhi.com/events/admission%20open.png' />
+          <Feature.PresidentM  img='https://acpkhi.com/imgs/Ahmed%20Shah.webp' />
+          <Feature.Production img='https://acpkhi.com/imgs/ACP%20Drone%202023.webp'  />
+          <Feature.Acadmics img='https://acpkhi.com/imgs/academies.webp'  />
+          <SocialMedia />
           <Newslater />
           <Footer />
     

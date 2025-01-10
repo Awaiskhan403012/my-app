@@ -4,7 +4,7 @@ import '../assets/css/Responsive.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import AcadmicsHero from '../components/Acadmicshero';
-import Heros from '../components/features';
+import Feature from '../components/features';
 import AcadmicShowCard from '../components/Acadmic-ShowCard';
 
 function Acadmics(){
@@ -12,8 +12,8 @@ function Acadmics(){
         <>
         <Navbar />
         <div className='container' >
-            <AcadmicsHero title='Admision open' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' />
-            <Heros.Admission />
+            <AcadmicsHero title='Admision open' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='' />
+            <Feature.Admission img='https://acpkhi.com/events/admission%20open.png' />
             <AcadmicShowCard />
         <Footer />
         </div>

@@ -8,7 +8,7 @@ function Acadmicshero(props) {
         <h6 className='H-des'>{props.desc}</h6>
         </div>
         <div className='hero-right'>
-        <img width='100%' height='100%' src={props.img} />
+        <img width='100%' height='100%' src={props.img} alt=''/>
         </div>
        </div>
     );

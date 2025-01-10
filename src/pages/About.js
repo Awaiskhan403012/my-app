@@ -14,7 +14,7 @@ function Acadmics(){
         <>
         <Navbar />
         <div className='container' >
-            <AboutHer1 title='About us' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas jgad   jhsgdj ganbsdasvg jhsagdjshsjkjsdhf' img='sd' img2='sd' />
+            <AboutHer1 title='About us' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas jgad   jhsgdj ganbsdasvg jhsagdjshsjkjsdhf' img='https://acpkhi.com/banners/about.webp' img2='https://acpkhi.com/banners/about.webp' />
             <AboutHer2 title='Mission' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' img2='sd' />
             <AboutHer3 title='Our Story' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' img2='sd' />
          

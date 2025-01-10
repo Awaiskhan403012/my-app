@@ -14,7 +14,7 @@ function GoverningBody(){
         <div className='container' >
             
             <AcadmicsHero title='Presidents Messege' desc='hello this is 
-            is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' />
+            is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='https://acpkhi.com/imgs/Ahmed%20Shah.webp' />
             <Gnav />
             <GoverningShowcard />
         <Footer />
