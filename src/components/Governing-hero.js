@@ -34,7 +34,7 @@ const ImageSlider = ({ images }) => {
   );
 };
 
-const Aca = () => {
+const GovH = () => {
 
   const images = [
     'https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=',
@@ -48,7 +48,7 @@ const Aca = () => {
     <div className='AboutHero3'>
     <div className='hero-left'>
     <h1 className='H-title'>Admission Open</h1>
-    <h6 className='H-des'>Starting from 29-jun 2025
+    <h6 className='H-des'> governing body from 29-jun 2025
     The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.
     </h6>
     </div>
@@ -62,4 +62,4 @@ const Aca = () => {
   );
 };
 
-export default Aca;
+export default GovH;

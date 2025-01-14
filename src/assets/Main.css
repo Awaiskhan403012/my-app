@@ -406,7 +406,7 @@ input[type="submit"]:hover {
   color: white;
   text-align: center;
   padding: 20px;
-  font-size: 10px;
+  font-size: 16px;
   transition: 0.5s;
 }
 
@@ -1346,7 +1346,7 @@ background-color: white;
 .AboutHero{
   width: 100%;
   height: 79vh;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(236, 236, 236);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1358,24 +1358,26 @@ background-color: white;
 .aboutimg1{
 
   position: absolute;
-  width: 45%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   margin-left: 30px;
   margin-bottom: 38px;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 
 .aboutimg2{
-
+  width: 100%;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .AboutHero2{
   width: 100%;
   height: 79vh;
-  background-color: rgb(146, 146, 146);
+  background-color: rgb(158, 158, 158);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1387,7 +1389,7 @@ background-color: white;
 .AboutHero3{
   width: 100%;
   height: 79vh;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(233, 233, 233);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1396,10 +1398,36 @@ background-color: white;
   color: rgb(0, 0, 0);
 }
 
+.a-hero-right{
+  width:48%;
+  height: 46vh;
+  background-color: rgb(184, 159, 159);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.Ab-hero-right{
+  width:48%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  color: white;
+  border-radius: 5px;
+}
+
 .hero-right{
-  width:33%;
+  width:48%;
   height: 66vh;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(184, 159, 159);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1415,7 +1443,7 @@ background-color: white;
 }
 
 .H-des{
-  font-size: 10px;
+font-size: 10px;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
@@ -1437,8 +1465,10 @@ max-width: 290px;
   transition: 0.5s;
   flex-wrap: wrap;
   padding: 50px;
-
+  color: white;
 }
+
+
 
 
 .Events-list-cont{
@@ -1544,6 +1574,16 @@ max-width: 290px;
   
 }
 
+
+.Event-infos{
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  background-color: white;
+  padding: 10px;
+  overflow: hidden;
+}
+
 .when-and-where{
   color: #ccc;
 }
@@ -1561,6 +1601,10 @@ max-width: 290px;
 
 .on-or-of{
   color: rgb(255, 0, 0);
+}
+
+.on-or-ofs{
+  color: black;
 }
  
 .left{
@@ -1986,8 +2030,128 @@ max-width: 290px;
   top: 50%;
 }
 
-.wellcome-container{
 
+.bnavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logoText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.navItem {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navItem:hover {
+  background-color: #555;
+  text-decoration: none;
+}
+
+
+.navItem.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+
+.searchContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.searchInput {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+
+
+.b-BlogingCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 380px;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.b-BlogingCard:hover {
+  transform: scale(1.05);
+}
+
+
+.b-bl-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+  background-color: black;
+}
+
+.b-bl-body {
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.b-card-text {
+  color: #333;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.b-card-a, .b-card-date, .b-card-cat {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+  padding: 2px;
+
+}
+
+
+.b-card-date, .b-card-cat {
+ border: 1px solid black;
+ border-radius: 3px;
+
+}
+
+.b-card-a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cate-date{
+
+ width: 100%;
+  height: 50px;
+
+}
+
+.c-container{
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
 }
 
 
@@ -1995,33 +2159,123 @@ max-width: 290px;
 
 
 
+.apps {
+  text-align: center;
+  padding: 20px;
+}
+
+.slider-container {
+  margin: 0 auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+
+.Event-z1{
+  width: 10%;
+  height: 100%;
+  background-color: black;
+  border-radius: 20px;
+  transition: 2S;
+  overflow: hidden;
+}
+
+.Event-z2{
+  width: 10%;
+  height: 100%;
+  background-color: black;
+  border-radius: 20px;
+  transition: 2S;
+  overflow: hidden;
+}
+
+.Event-z3{
+  width: 10%;
+  height: 100%;
+  background-color: black;
+  border-radius: 20px;
+  transition: 2S;
+  overflow: hidden;
+}
+
+.Event-z4{
+  width: 10%;
+  height: 100%;
+  background-color: black;
+  border-radius: 20px;
+  transition: 2S;
+  overflow: hidden;
+}
+
+.Event-z5{
+  width: 10%;
+  height: 100%;
+  background-color: black;
+  border-radius: 20px;
+  transition: 2S;
+  overflow: hidden;
+}
+
+.Event-z1:hover{
+  width: 50%;
+  
+}
+
+.Event-z2:hover{
+  width: 50%;
+  
+}
+
+.Event-z3:hover{
+  width: 50%;
+  
+}
+.Event-z4:hover{
+  width: 50%;
+  
+}
+.Event-z5:hover{
+  width: 50%;
+  
+}
 
 
 
 
 
-/* Example for smaller screens */
-@media (max-width: 600px) {
-  .container {
-    font-size: 14px;
-  }
-
-  .wellcome-container{
-    padding: 10px;
-    font-size: 14px;
-  }
+.Events-cont1{
+background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  flex-wrap: wrap;
+  transition: 2S;
 
 }
 
-/* Example for larger screens */
-@media (min-width: 601px) {
-  .container {
-    font-size: 18px;
-  }
-
-  .wellcome-container{
-    padding: 20px;
-    font-size: 20px;
-  }
-
+.e-imgs{
+ opacity: 0.8;
+ border-radius: 20px;
+ width: 190%;
+ position: relative;
+ 
 }
+
+.e-imgs:hover{
+
+  width: 100%;
+  
+ }
+
+ .headi{
+  text-align: center;
+  background-color: gainsboro;
+
+ }

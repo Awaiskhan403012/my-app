@@ -16,16 +16,18 @@ function Card(props) {
 
 function BlogingCard(props) {
     return (
-        <div className="BlogingCard flex-center flex-column">
-            <img className="bl-img" src={props.img} alt="Card cap" />
-            <div className="bl-body">
-                <h4 className="card-text">{props.title}</h4> 
-                <p className="card-text">{props.description}</p>
-                <p className="card-a">{props.tag}</p> 
-                <p className="card-date">{props.date}</p> 
-                <p className="card-cat">{props.category}</p> 
-            </div>
+        <div className="b-BlogingCard flex-left flex-column">
+        <img className="b-bl-img" src={props.img} alt="Blog image" />
+        <div className="b-bl-body">
+          <h4 className="b-card-text">{props.title}</h4>
+          <p className="b-card-text">{props.description}</p>
+          <p className="b-card-a">{props.tag}</p>
         </div>
+        <div className='cate-date flex-evenly'>
+          <p className="b-card-date">{props.date}</p>
+          <p className="b-card-cat">{props.category}</p>
+          </div>
+      </div>
     );
 }
 

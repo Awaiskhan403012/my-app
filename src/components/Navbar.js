@@ -19,7 +19,7 @@ function Navbar() {
 
 
           <div class="dropdown">
-  <button class="btnDark">Dropdown</button>
+  <button class="btnDark">Menu</button>
   <div class="dropdown-content">
   <li className="navItem">
             <Link to="/Event">Event</Link> 

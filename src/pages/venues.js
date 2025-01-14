@@ -3,7 +3,7 @@ import '../assets/Main.css';
 import '../assets/css/Responsive.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import AcadmicsHero from '../components/Acadmicshero';
+import Hero from '../components/Venue-hero';
 import VenuesShowCard from '../components/Venue-showCard';
 
 function Venues(){
@@ -11,7 +11,7 @@ function Venues(){
         <>
         <Navbar />
         <div className='container' >
-            <AcadmicsHero title='Venues' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' />
+            <Hero />
             <VenuesShowCard />
         <Footer />
         </div>

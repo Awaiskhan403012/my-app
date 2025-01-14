@@ -3,7 +3,7 @@ import '../assets/Main.css';
 import '../assets/css/Responsive.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import AcadmicsHero from '../components/Acadmicshero';
+import Hero from '../components/Governing-hero';
 import Gnav from '../components/G-nav';
 import GoverningShowcard from '../components/GoverningBody-showcard';
 
@@ -13,8 +13,7 @@ function GoverningBody(){
         <Navbar />
         <div className='container' >
             
-            <AcadmicsHero title='Presidents Messege' desc='hello this is 
-            is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='https://acpkhi.com/imgs/Ahmed%20Shah.webp' />
+            <Hero />
             <Gnav />
             <GoverningShowcard />
         <Footer />

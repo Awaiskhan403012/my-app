@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/Main.css';
+
 import Navbar from '../components/Navbar';
 import Landing from '../components/Landing';
 import Wellcome from '../components/Wellcome';
@@ -29,7 +30,7 @@ function Home(){
     
           
           
-          <Feature.Admission img='https://acpkhi.com/events/admission%20open.png' />
+          <Feature.Admission img='https://thumbs.dreamstime.com/b/admissions-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-color-easily-84943886.jpg' />
           <Feature.PresidentM  img='https://acpkhi.com/imgs/Ahmed%20Shah.webp' />
           <Feature.Production img='https://acpkhi.com/imgs/ACP%20Drone%202023.webp'  />
           <Feature.Acadmics img='https://acpkhi.com/imgs/academies.webp'  />

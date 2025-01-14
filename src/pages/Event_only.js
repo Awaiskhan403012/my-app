@@ -12,6 +12,7 @@ import Eventtestimonal from '../components/Event_testimonal';
 import Eventtrailor from '../components/Event_trailor';
 import Footer from '../components/Footer';
 import Eventvideo from '../components/Event_video';
+import Eventimg from '../components/Event-img';
 
 function Events_only(){
     return (
@@ -19,38 +20,7 @@ function Events_only(){
          <Navbar />
          <div className='container' >
            
-         <div className='Events-cont'>
-            <div className='left'>
-            <h1>Event name</h1>
-            <button>Register Now</button>
-            </div>
-            <div className='right'>
-            <div className='Event-info'>
-                <div className='shape'>a</div>
-                <h4 className='when-and-where'>When and wher</h4>
-                <h4 className='and-where'>November 8-9 arts council</h4>
-                <h4 className='on-or-of'>online</h4>
-            </div>
-            
-            <div className='Event-time-date flex-evenly'>
-
-            <div>
-                    <h6 className='Event-list-name'>56</h6>
-                    <h6 className='Event-list-name'>Day</h6>
-                </div>
-                <div>
-                    <h6 className='Event-list-name'>56</h6>
-                    <h6 className='Event-list-name'>Hour</h6>
-                </div>
-                <div>
-                    <h6 className='Event-list-name'>56</h6>
-                    <h6 className='Event-list-name'>min</h6>
-                </div>
-            </div>
-            </div>
-
-         </div>
-
+         <Eventimg name='Event name' img='https://i0.wp.com/picjumbo.com/wp-content/uploads/magical-spring-forest-scenery-during-morning-breeze-free-photo.jpg?w=600&quality=80' when='20 jun' where='arts council karachi' onof='online' />
          <Eventvideo />
          <Eventwhy />
          <Eventshedule />

@@ -14,9 +14,9 @@ function Acadmics(){
         <>
         <Navbar />
         <div className='container' >
-            <AboutHer1 title='About us' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas jgad   jhsgdj ganbsdasvg jhsagdjshsjkjsdhf' img='https://acpkhi.com/banners/about.webp' img2='https://acpkhi.com/banners/about.webp' />
-            <AboutHer2 title='Mission' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' img2='sd' />
-            <AboutHer3 title='Our Story' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='sd' img2='sd' />
+            <AboutHer1 title='About us' desc='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing jhsagdjshsjkjsdhf' img='https://www.moldech.com/wp-content/uploads/2023/02/AboutUs.jpg' img2='https://www.moldech.com/wp-content/uploads/2023/02/AboutUs.jpg' />
+            <AboutHer2 title='Mission' desc='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing' img='https://www.projectmanager.com/wp-content/uploads/2018/11/181112_Blog_Feature_Mission.jpg' />
+            <AboutHer3 title='Our Story' desc='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing' img='https://yourstory.tenement.org/assets/images/ysos-logo-square.svg' />
          
 
         <Footer />
