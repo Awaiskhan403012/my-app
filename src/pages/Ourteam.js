@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Our-team-hero';
 import OurteamShowcard from '../components/ourteamShowCard';
-import execDirectorImg from "../assets/team/daniyal.webp";
 function GoverningBody(){
     return(
         <>

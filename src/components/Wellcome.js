@@ -2,7 +2,7 @@ import React from 'react';
 function Wellcome(props){
     return(
         <>
-            <div className="wellcome-container">
+            <div className="wellcome-container flex-column">
                 <h1 className="wellcome-title">{props.wellcome}</h1>
                 <h2 className="wellcome-subtitle">{props.subwellcome}</h2>
                 <h4 className="wellcome-text">{props.wellcometext}</h4>

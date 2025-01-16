@@ -11,9 +11,11 @@ function Event_regist() {
             </div>
             <div className='head-box'></div>
         </div>
-        <div className='reg-cards flex-evenly'>
+        <div className='reg-cards flex-column'>
             <Regcards />
+            <br />
             <Regcards />
+            <br />
             <Regcards />
         </div>
     </div>

@@ -5,10 +5,13 @@ function Event_shedule() {
     return (
         <div className='sh-cont'>
         <div className='sh-head flex-around'>
+           
+            <div>
             <h1>Event Shedule</h1>
             <button className='btn'>Day one</button>
             <button className='btn'>Day two</button>
             <button className='btn'>Day three</button>
+            </div>
         </div>
         <EventList />
     </div>

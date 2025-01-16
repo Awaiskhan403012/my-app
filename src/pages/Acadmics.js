@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/Main.css';
-import '../assets/css/Responsive.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import AcadmicsHero from '../components/Acadmicshero';
@@ -12,8 +11,8 @@ function Acadmics(){
         <>
         <Navbar />
         <div className='container' >
-            <AcadmicsHero title='Admision open' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' img='' />
-            <Feature.Admission img='https://acpkhi.com/events/admission%20open.png' />
+            <AcadmicsHero title='Admision open' desc='hello this is is the tamas dgjashdg jhgdjsahdg sdgjashdhg jhgdjas kjsdhf' />
+            <Feature.Admission img='https://1ststep.pk/cdn/shop/files/6_ad59d255-a4ec-4b7e-bde5-f3abab93952a_2048x.jpg?v=1704113247' />
             <AcadmicShowCard />
         <Footer />
         </div>

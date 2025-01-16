@@ -8,8 +8,8 @@ function Abouthero1(props) {
         <h6 className='H-des'>{props.desc}</h6>
         </div>
         <div className='a-hero-right'>
-        <img className='aboutimg1'  width='100%' height='100%' src={props.img} />
-        <img className='aboutimg2' width='100%' height='100%' src={props.img2} />
+        <img className='aboutimg1'  width='100%' height='100%' src={props.img} alt='' />
+        <img className='aboutimg2' width='100%' height='100%' src={props.img2} alt='' />
         </div>
        </div>
     );

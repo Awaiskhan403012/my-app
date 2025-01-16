@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { motion } from 'framer-motion';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -53,9 +54,15 @@ const OurH = () => {
     </h6>
     </div>
     <div className='Ab-hero-right'>
-    <div className="apps">
+    <motion.div
+    
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1 }}
+    
+    className="apps">
       <ImageSlider images={images} />
-    </div>
+    </motion.div>
     </div>
    </div>
 

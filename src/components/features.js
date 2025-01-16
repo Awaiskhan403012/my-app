@@ -1,12 +1,20 @@
 import React from 'react';
 import '../assets/Main.css';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 function Admission(props) {
     return (
         <div className='feature-cont'>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
+                <motion.div
+                
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                
+                className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></motion.div>
             </div>
             <div className='feature-right-content flex-column'>
                 <h4 className="card-text">Admission</h4>
@@ -31,7 +39,14 @@ function PresidentM(props) {
                 <Link to="/governing-body"><button className='btn'>See more</button></Link>
             </div>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
+                <motion.div
+                
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                
+                className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></motion.div>
             </div>
         </div>
     );
@@ -42,7 +57,14 @@ function Production(props) {
     return (
         <div className='feature-cont'>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
+                <motion.div
+                
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                
+                className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></motion.div>
             </div>
             <div className='feature-right-content flex-column'>
                 <h4 className="card-text">Production</h4>
@@ -67,7 +89,14 @@ function Acadmics(props) {
                 <Link to="/academics"><button className='btn'>See more</button></Link>
             </div>
             <div className='feature-left-img flex-center'>
-                <div className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></div>
+                <motion.div
+                
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                
+                className='img-center'><img src={props.img} width='100%' height='100%' alt='' /></motion.div>
             </div>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/Main.css';
+import { motion } from 'framer-motion';
 
 function Card(props) {
     return (
@@ -17,7 +18,7 @@ function Card(props) {
 function BlogingCard(props) {
     return (
         <div className="b-BlogingCard flex-left flex-column">
-        <img className="b-bl-img" src={props.img} alt="Blog image" />
+        <img className="b-bl-img" src={props.img} alt='' />
         <div className="b-bl-body">
           <h4 className="b-card-text">{props.title}</h4>
           <p className="b-card-text">{props.description}</p>
@@ -34,14 +35,21 @@ function BlogingCard(props) {
 
 function AdmCard(props) {
     return (
-        <div className="BlogingCard  flex-column">
+        <motion.div
+        
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        
+        className="AdmCard">
             <img className="bl-img" src={props.img} alt="Card cap" />
             <div className="bl-body">
                 <h4 className="card-text">{props.title}</h4> 
 
-               <a href=''>see more</a>
+               <li href=''>see more</li>
             </div>
-        </div>
+        </motion.div>
     );
 }
 export default { Card, BlogingCard, AdmCard };

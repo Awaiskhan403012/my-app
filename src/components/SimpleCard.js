@@ -5,10 +5,10 @@ function SimpleCard(props) {
     return (
         <div className="Simplecard">
             <img className="card-img-top" src={props.img} alt="Card cap" />
-            <div className="card-body">
-                <p className="card-text">{props.des}</p>
-                <h6>learn more</h6>
-            </div>
+            <div className="card-content">
+      <h2 className="card-title">{props.title}</h2>
+      <button className="card-button">Learn More</button>
+    </div>
         </div>
     );
 }

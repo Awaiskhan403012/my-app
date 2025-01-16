@@ -13,7 +13,9 @@ function Landing(){
       loop
       muted
     ></video>
-    <h1 className='landing-text'>Arts Council karachi</h1>
+    <h1 className='landing-text'>Arts Council karachi
+        The Hub Of Arts
+    </h1>
             </div>
             
         </>

@@ -4,7 +4,7 @@ import '../assets/css/Blogpage.css';
 function Blogtitle(props) {
     return (
        <div className='BlogtitleCont'>
-        <img src={props.img} />
+        <img src={props.img} alt='IMG'/>
         <h2>title {props.title}</h2>
         <h4>Description {props.des}</h4>
        </div>

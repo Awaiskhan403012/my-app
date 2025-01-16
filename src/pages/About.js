@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/Main.css';
-import '../assets/css/Responsive.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import AboutHer1 from '../components/About-hero1';

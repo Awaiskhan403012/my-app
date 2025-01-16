@@ -4,7 +4,7 @@ import '../assets/Main.css';
 function Newslater(){
     return(
         <>
-        <div className='Newslater-cont'>
+        <div className='Newslater-cont flex-container flex-evenly'>
             <div className='Ntitle'><h1>Newslater</h1></div>
             <div className='contents'>
                 <p className='News-text'><h3>Ready To Get Started ?</h3>

@@ -2,11 +2,7 @@ import React from 'react';
 import '../assets/Main.css';
 function Eventcont(props) {
     return (
-        <div className='Events-cont' style={{
-            backgroundImage: `url(${props.img})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-         }}>
+        <div className='Events-cont'>
             <div className='left'>
             <h1>{props.name}</h1>
             <button>Register Now</button>

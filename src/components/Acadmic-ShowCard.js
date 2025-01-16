@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/Main.css';
-import '../assets/css/Blogpage.css';
 import card from './Card';
 function ShowCard() {
     return (

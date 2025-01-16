@@ -8,9 +8,9 @@ function BlogNav() {
 
           <div className='navLinks'>
           
-            <a className='navItem'>Office bearss</a>
-            <a className='navItem'>Governing Body</a>
-            <a className='navItem'>Co Apred members</a>
+            <li className='navItem'>Office bearss</li>
+            <li className='navItem'>Governing Body</li>
+            <li className='navItem'>Co Apred members</li>
           </div>
           
         </nav>

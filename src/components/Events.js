@@ -6,8 +6,8 @@ function Events(){
         <>
           
             <div className="events-container flex-evenly">
-            
-               <div className="Ecard black">
+
+               <div className="Ecard">
                <Link to="/Events">
                 <h2 className="events-title">Upcoming <br /> Events</h2>
                 </Link>

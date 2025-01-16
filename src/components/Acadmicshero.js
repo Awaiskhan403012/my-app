@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { motion } from 'framer-motion';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -47,15 +48,34 @@ const Aca = () => {
 
     <div className='AboutHero3'>
     <div className='hero-left'>
-    <h1 className='H-title'>Admission Open</h1>
-    <h6 className='H-des'>Starting from 29-jun 2025
+    <motion.h1
+    
+    initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+    
+    className='H-title'>Admission Open</motion.h1>
+    <motion.h6
+    
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1 }}
+    
+    className='H-des'>Starting from 29-jun 2025
     The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.
-    </h6>
+    </motion.h6>
     </div>
     <div className='Ab-hero-right'>
-    <div className="apps">
+    <motion.div
+    
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1 }}
+
+    
+    className="apps">
       <ImageSlider images={images} />
-    </div>
+    </motion.div>
     </div>
    </div>
 

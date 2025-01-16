@@ -6,6 +6,7 @@ function Event_testimonal() {
             <h1>People Testimonal</h1>
         <div className='t-circle'></div>
         <div className='t-box1'>
+            Testimonal
         </div>
         <div className='more-boxes flex-evenly'>
             <div className='test-1'></div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/Main.css';
-import '../assets/css/Responsive.css';
 import Navbar from '../components/Navbar';
 import Eventwhy from '../components/Event_why';
 import Eventorgpartner from '../components/Event_org_partner';
