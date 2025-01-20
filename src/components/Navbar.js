@@ -5,7 +5,7 @@ import '../assets/Main.css';
 import logo from '../assets/images/logo.png';
 function Navbar() {
   return (
-    <nav className="navbar flex-container justify-around align-center p-2">
+    <nav className="navbar flex-container justify-between align-center p-2">
       <div className="logoBox flex-container">
         <motion.img
         
@@ -19,9 +19,9 @@ function Navbar() {
 
       
         
-      <li className="navItem">
-            <Link to="/Events">Events</Link> 
-          </li>
+     
+           
+      
 
 
 
@@ -59,6 +59,7 @@ function Navbar() {
           <li className="navItem">
             <Link to="/venues">Venues</Link>
           </li>
+          <li className="navItem"><Link to="/Events">Events</Link></li>
   </div>
 </motion.div>
 

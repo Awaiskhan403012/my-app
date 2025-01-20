@@ -3,6 +3,7 @@ function SocialMedia(){
     return(
         <>
             <div className="Social-container">
+                
             <div className="Simplecard">
             <img className="card-img-top" src='https://www.fubiz.net/wp-content/uploads/2010/11/013-550x777.jpg' alt="Card cap" />
             <div className="card-body">

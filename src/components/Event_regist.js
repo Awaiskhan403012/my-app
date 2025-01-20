@@ -3,7 +3,7 @@ import '../assets/Main.css';
 import Regcards from './Reg-card';
 function Event_regist() {
     return (
-        <div className='reg-cont flex-column'>
+        <div className='reg-cont'>
         <div className='reg-head flex-evenly'>
             <div className='flex-column'>
             <h6>Register Now</h6>
@@ -11,11 +11,9 @@ function Event_regist() {
             </div>
             <div className='head-box'></div>
         </div>
-        <div className='reg-cards flex-column'>
+        <div className='reg-cards'>
             <Regcards />
-            <br />
             <Regcards />
-            <br />
             <Regcards />
         </div>
     </div>

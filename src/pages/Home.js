@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Landing from '../components/Landing';
 import Wellcome from '../components/Wellcome';
 import Events from '../components/Events';
+import Eventres from '../components/Event-b';
 import Feature from '../components/features';
 import SocialMedia from '../components/Social-media';
 import Newslater from '../components/Newslater';
@@ -27,6 +28,7 @@ function Home(){
           />
     
     <Events />
+    <Eventres />
     
           
           

@@ -8,7 +8,7 @@ function Eventcont(props) {
             <button>Register Now</button>
             </div>
             <div className='right'>
-            <div className='Event-info'>
+            <div className='Event-info flex-container flex-evenly flex-column'>
                 <div className='shape'>a</div>
                 <h4 className='when-and-where'>{props.when}</h4>
                 <h4 className='and-where'>{props.where}</h4>
@@ -21,13 +21,20 @@ function Eventcont(props) {
                     <h6 className='Event-list-name'>56</h6>
                     <h6 className='Event-list-name'>Day</h6>
                 </div>
+                <div class="vertical-line"></div>
                 <div>
                     <h6 className='Event-list-name'>56</h6>
                     <h6 className='Event-list-name'>Hour</h6>
                 </div>
+                <div class="vertical-line"></div>
                 <div>
                     <h6 className='Event-list-name'>56</h6>
                     <h6 className='Event-list-name'>min</h6>
+                </div>
+                <div class="vertical-line"></div>
+                <div>
+                    <h6 className='Event-list-name'>56</h6>
+                    <h6 className='Event-list-name'>sec</h6>
                 </div>
             </div>
             </div>

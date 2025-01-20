@@ -16,10 +16,10 @@ function EventList() {
         <div className='Event-list-comp'>
             <div className='Event-list-header flex-betw'>
                 <div className='price-ev'>
-                    <div className='Event-list-price'>4000</div>
+                    <div className='Event-list-price flex-evenly'>4000</div>
                     <h6 className='Event-list-name'>Buy  now</h6>
                 </div>
-                <div className='Event-list-pos'>f</div>
+                <div className='Event-list-pos'></div>
                 <div>
                     <h6 className='Event-list-name'>Name</h6>
                     <h6 className='Event-list-name'>Position</h6>

@@ -6,7 +6,7 @@ function BlogNav() {
         <>
         <nav className='bnavbar'>
 
-          <div className='navLinks'>
+          <div className='navLinks flex-container'>
           
             <li className='navItem'>Office bearss</li>
             <li className='navItem'>Governing Body</li>
