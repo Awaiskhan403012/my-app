@@ -6,6 +6,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
+
+import venueImg1 from "../assets/venues/audi 1.webp";
+import venueImg2 from "../assets/venues/audi 2.webp";
+import venueImg3 from "../assets/venues/studio 1.webp";
+import venueImg4 from "../assets/venues/studio 2.webp";
+import venueImg5 from "../assets/venues/haseena moin.webp";
+
 const ImageSlider = ({ images }) => {
   const settings = {
     dots: false,                 
@@ -38,10 +45,12 @@ const ImageSlider = ({ images }) => {
 const venH = () => {
 
   const images = [
-    'https://images.pexels.com/photos/30301026/pexels-photo-30301026/free-photo-of-illuminated-tokyo-tower-amidst-tokyo-skyline-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    'https://images.pexels.com/photos/29971353/pexels-photo-29971353/free-photo-of-serene-woodland-scene-in-english-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    'https://images.pexels.com/photos/30214968/pexels-photo-30214968/free-photo-of-traditional-moroccan-music-group-performing-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    'https://images.pexels.com/photos/30186417/pexels-photo-30186417/free-photo-of-paragliding-adventure-over-scenic-mountain-range.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    venueImg1,
+    venueImg2,
+    venueImg3,
+    venueImg4,
+    venueImg5,
+    
   ];
 
   return (
