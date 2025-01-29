@@ -343,9 +343,37 @@ html, body {
   .Event-list-header, .Event-list-footer, .Event-list-des, .Event-list-comp{
     flex-wrap: wrap ;
   }
+
+  .Event-list-header button{
+    width: 100px;
+  }
+}
+
+@media (max-width: 390px) {
+
+  .Event-list-header{
+    width: 100px;
+    flex-wrap: wrap;
+    height: auto;
+  }
+.c-left .reason-cir{
+  width: 30px;
+  height: 30px;
+  }
+}
+
+.reach-cont{
+  height: auto;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
+
+  body .reach-cont{
+    flex-wrap: wrap;
+    height: auto;
+   gap: 20px;
+  }
 
   .Ecard{
     width: 90%;
@@ -674,7 +702,7 @@ navbar .logoBox{
 }
 
 
-.Video-main-cont{
+body .Video-main-cont{
   background-color: #575757;
   width: 100%;
   height: 100vh;
@@ -688,6 +716,18 @@ navbar .logoBox{
   color: white;
 }
 
+.Video-main-cont .video-left{
+  width: 100%;
+}
+
+.video-left button{
+  width: 300px;
+}
+
+.Video-main-cont .video-right{
+  width: 90%;
+}
+
 .des-div{
   width: 300px;
   height: 200px;
@@ -695,6 +735,10 @@ navbar .logoBox{
   margin: 10px;
 }
 
+
+body .Why-cont{
+  height: auto;
+}
 .row-ev{
   display: flex;
   justify-content: space-evenly;
@@ -853,25 +897,23 @@ body .reg-cards{
 body .tel-cont{
  
   height: auto;
-  
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
 
-
 }
 
 
-.sp-card{
-  width: 24%;
-  height: 300px;
+.tel-cont .sp-card{
+  width: 90%;
+  height: 400px;
 }
 
 .sp-card-img{
   width: 100%;
-  height: 250px;
+  height: 300px;
   background-color: #bebebe;
 }
 
@@ -917,12 +959,12 @@ body .tr-cont{
   flex-direction: column;
   align-items: center;
   transition: 0.5s;
-  padding: 50px;
+  padding: 30px;
   color: white;
 }
 
-.tr-video{
-
+.tr-cont .tr-video{
+  width: 90%;
 }
 
 .container .Why-cont{
@@ -933,8 +975,18 @@ body .tr-cont{
 
 }
 
-.event-des{
+.Why-cont .event-des{
+  width: auto;
+}
 
+body .Video-main-cont{
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  margin: 0px;
 }
 .c-left{
   width: auto;
@@ -2742,6 +2794,20 @@ padding: 10px;
   overflow: hidden;
   box-sizing: border-box;
   animation: animloader 6s linear infinite;
+}
+
+.reach-cont{
+  background-color: #cfcfcf;
+  width: 100%;
+  height: 50vh;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  transition: 0.5s;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 
 @keyframes animloader {

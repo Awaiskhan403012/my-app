@@ -9,13 +9,13 @@ function Event_why() {
                 </div>
                 <div className='reason-cir'>
 
-</div>
-<div className='reason-cir'>
+                </div>
+                <div className='reason-cir'>
 
-</div>
-<div className='reason-cir'>
+                </div>
+                <div className='reason-cir'>
 
-</div>
+                </div>
             </div>
             <div className='c-right flex-column'>
                 <h2>Why Join Event ?</h2>
