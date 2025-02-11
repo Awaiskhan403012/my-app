@@ -35,30 +35,42 @@ function Navbar() {
   <button class="btnDark">Menu</button>
   <div class="dropdown-content">
   <li className="navItem">
-            <Link to="/Event">Event</Link> 
-          </li>
-          
-          <li className="navItem">
             <Link to="/">Home</Link> 
           </li>
-          <li className="navItem">
-            <Link to="/about">About</Link> 
-          </li>
+
           <li className="navItem">
             <Link to="/academics">Academics</Link>
           </li>
-          <li className="navItem">
-            <Link to="/blog">Blog</Link>
-          </li>
+
           <li className="navItem">
             <Link to="/governing-body">Governing Body</Link> 
           </li>
+
+
           <li className="navItem">
             <Link to="/our-team">Our Team</Link>
           </li>
           <li className="navItem">
             <Link to="/venues">Venues</Link>
           </li>
+
+
+          <li className="navItem">
+            <Link to="/blog">Blog</Link>
+          </li>
+          
+
+          <li className="navItem">
+            <Link to="/about">About</Link> 
+          </li>
+
+          <li className="navItem">
+            <Link to="/Event">Event</Link> 
+          </li>
+         
+
+          
+          
           <li className="navItem"><Link to="/Events">Events</Link></li>
   </div>
 </motion.div>
@@ -67,7 +79,7 @@ function Navbar() {
 
       
       
-      <button className="btn">Sign in</button>
+      <button className="btn"><Link className="link" to="/Signin" >Sign in</Link></button>
     </nav>
   );
 }

@@ -48,8 +48,13 @@ const OurH = () => {
 
     <div className='AboutHero3'>
     <div className='hero-left'>
-    <h1 className='H-title'>Our Team</h1>
-    <h6 className='H-des'>Starting from 29-jun 2025
+    <h1 className='H-title' style={{
+      color: "white"
+    }}>Our Team</h1>
+    <h6 className='H-des' style={{
+      color: "white",
+      fontSize: "15px"
+    }}>Starting from 29-jun 2025
     The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.
     </h6>
     </div>

@@ -47,37 +47,22 @@ const Aca = () => {
   return (
 
     <div className='AboutHero3'>
-    <div className='hero-left'>
-    <motion.h1
-    
-    initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-    
-    className='H-title'>Admission Open</motion.h1>
-    <motion.h6
+   
+ <motion.div
     
     initial={{ opacity: 0, y: 50 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1 }}
-    
-    className='H-des'>Starting from 29-jun 2025
-    The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.
-    </motion.h6>
-    </div>
-    <div className='Ab-hero-right'>
-    <motion.div
-    
-    initial={{ opacity: 0, y: 50 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1 }}
-
     
     className="apps">
       <ImageSlider images={images} />
+      <h1 className='landing-text'>Admission Open<br></br>
+      <p className='paragraph'>Acadmic Admisions from 29-jun 2025
+      The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.</p>
+      </h1>
     </motion.div>
+
     </div>
-   </div>
 
   );
 };

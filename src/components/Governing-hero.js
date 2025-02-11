@@ -47,13 +47,6 @@ const GovH = () => {
   return (
 
     <div className='AboutHero3'>
-    <div className='hero-left'>
-    <h1 className='H-title'>Admission Open</h1>
-    <h6 className='H-des'> governing body from 29-jun 2025
-    The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.
-    </h6>
-    </div>
-    <div className='Ab-hero-right'>
     <motion.div
     
     initial={{ opacity: 0, y: 50 }}
@@ -62,10 +55,12 @@ const GovH = () => {
     
     className="apps">
       <ImageSlider images={images} />
+      <h1 className='landing-text'>Admission Open<br></br>
+      <p className='paragraph'>governing body from 29-jun 2025
+      The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.</p>
+      </h1>
     </motion.div>
     </div>
-   </div>
-
   );
 };
 

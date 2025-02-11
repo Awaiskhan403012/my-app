@@ -13,13 +13,16 @@ const Ourteam = lazy(() => import('./pages/Ourteam'));
 const Venues = lazy(() => import('./pages/venues'));
 const Events = lazy(() => import('./pages/Events'));
 const Event = lazy(() => import('./pages/Event_only'));
-
+const Signin = lazy(() => import('./pages/signin'));
+const Login = lazy(() => import('./pages/login'));
 function App() {
   return (
     <Router>
       <Suspense fallback={<div><div className='loader'><div className='loader-img'><img className='img-l' src='https://acpkhi.com/logo.png' alt='loader'></img></div></div></div>}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/Event" element={<Event />} />
           <Route path="/about" element={<About />} />

@@ -7,7 +7,6 @@ function EventList() {
 
     const [isVisible, setIsVisible] = useState(false);
 
-    // Toggle height when button is clicked
     const toggleHeight = () => {
         setIsVisible(!isVisible);
     };

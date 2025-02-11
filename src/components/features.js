@@ -49,7 +49,10 @@ function PresidentM(props) {
             className='feature-right-content flex-column'>
                 <h4 className="card-text">President Message</h4>
                 <p className="card-text">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                <b>Mohammad Ahmed Shah (HI , SI)</b><br></br><br></br>
+"The Arts Council of Pakistan endeavors to uphold and champion the rich tapestry of Pakistani arts and culture on the world stage. Our aspiration is to provide a nurturing and inspirational environment that fosters talent, connections, and collaboration among communities not only within Pakistan but across the globe."
+
+- President, Arts Council of Pakistan, Karachi.
                 </p>
                 <Link to="/governing-body"><button className='btn'>See more</button></Link>
             </motion.div>
@@ -92,7 +95,18 @@ function Production(props) {
             className='feature-right-content flex-column'>
                 <h4 className="card-text">Production</h4>
                 <p className="card-text">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                We believe in the transformative power of the arts, uniting talents from Pakistan and beyond, and fostering artistic expression and exchange while making culture accessible to all through our digital productions and archives.
+Some of our biggest events of the year include<br></br>
+<br></br>
+
+World Culture Festival<br></br>
+Aalmi Urdu Conference<br></br>
+Pakistan Literature Festival<br></br>
+Pakistan Theatre Festival<br></br>
+Pakistan Music Festival<br></br>
+Women’s Conference<br></br><br></br>
+
+We believe in the transformative power of the arts, uniting talents from Pakistan and beyond, and fostering artistic expression and exchange while making culture accessible to all through our digital productions and archives.
                 </p>
                 <Link to="/our-team"><button className='btn'>See more</button></Link>
             </motion.div>
@@ -115,7 +129,7 @@ function Acadmics(props) {
             className='feature-right-content flex-column'>
                 <h4 className="card-text">Acadmics</h4>
                 <p className="card-text">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                ACPKHI houses multiple arts academies. Our core belief is nurturing young talents to become creative, accomplished individuals, bringing pride to our nation. With academies catering to those passionate about theatre, singing, music, dance and fine arts, textile design, communication design we train hundreds of students yearly and have continued to do so with expert instructors since 1954
                 </p>
                 <Link to="/academics"><button className='btn'>See more</button></Link>
             </motion.div>

@@ -56,13 +56,8 @@ const venH = () => {
   return (
 
     <div className='AboutHero3'>
-    <div className='hero-left'>
-    <h1 className='H-title'>Over Top Venues</h1>
-    <h6 className='H-des'>Starting from 29-jun 2025
-    The tetracycline antibiotics block microbial translation and constitute an important group of antimicrobial agents that find broad clinical utility.
-    </h6>
-    </div>
-    <div className='Ab-hero-right'>
+
+    
     <motion.div
     
     
@@ -72,9 +67,12 @@ const venH = () => {
     
     className="apps">
       <ImageSlider images={images} />
+      <h1 className='landing-text'>Venues<br></br>
+      <p className='paragraph'>Explore our amazing venues for events and gatherings</p>
+    </h1>
     </motion.div>
     </div>
-   </div>
+  
 
   );
 };
